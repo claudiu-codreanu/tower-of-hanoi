@@ -1,0 +1,58 @@
+.solution {
+    float: left;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.inputs {
+    float: left;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.console {
+    border: solid 1px grey;
+    font-family: Consolas;
+    font-size: smaller;
+    background-color: #222222;
+    color: chartreuse;
+    margin-top: 10px;
+    height: 600px;
+    overflow: auto;
+    white-space: pre;
+}
+
+.label {
+    text-align: right;
+    width: 140px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.combo {
+    width: 50px;
+}
+
+.play {
+    margin-top: 30px;
+    margin-left: 150px;
+    cursor: hand;
+    width: 80px;
+    height: 40px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.title {
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: #444444;
+}
+
+.inputs fieldset {
+    padding-bottom: 20px;
+}
