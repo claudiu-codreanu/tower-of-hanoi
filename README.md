@@ -2,7 +2,7 @@
 
 Finds and displays the moves which solve the Tower of Hanoi puzzle.
 
-[Implemented](main.html) as JavaScript function, with the following signature:  
+[Implemented](https://claudiu-codreanu.github.io/tower-of-hanoi/main.html) as JavaScript function, with the following signature:  
 `function hanoi(n, from, to)`
 
 - `n`: number of disks
@@ -43,4 +43,4 @@ Min number of moves = `2 ** N - 1` (`2` to the power of `N`, minus `1`)
 
 <br>
 
-Play with my implementation [here](main.html)
+Play with my implementation [here](https://claudiu-codreanu.github.io/tower-of-hanoi/main.html)
