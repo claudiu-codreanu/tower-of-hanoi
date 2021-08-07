@@ -1,6 +1,9 @@
 # Tower of Hanoi
 
-Finds and displays the moves which solve the Tower of Hanoi puzzle.
+Finds and displays the moves which solve the Tower of Hanoi puzzle.  
+See the project page **[here](https://claudiu-codreanu.github.io/tower-of-hanoi)**
+
+<br>
 
 [Implemented](https://claudiu-codreanu.github.io/tower-of-hanoi/main.html) as JavaScript function, with the following signature:  
 `function hanoi(n, from, to)`
