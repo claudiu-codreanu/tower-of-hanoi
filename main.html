@@ -1,43 +1,58 @@
-<script src="main.js" type="text/javascript"></script>
-<link rel="stylesheet" href="main.css">
+<!DOCTYPE html>
 
-<div class="solution">
-    <div class="title">
-        Solution:
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tower of Hanoi</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="hanoi(5, 1, 3)">
+    <script src="main.js" type="text/javascript"></script>
+
+
+    <div class="solution">
+        <div class="title">
+            Solution:
+        </div>
+        <div class="console" id="console"></div>
     </div>
-    <div class="console" id="console"></div>
-</div>
 
-<div class="inputs">
-<fieldset>
-    <legend>Variables</legend>
-    <br>
-    <label for="numDisks" class="label">Number of Disks:</label>
-    <select id="numDisks" class="combo">
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5" selected>5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-    </select>
-    <br>
-    <label for="fromPeg" class="label">Move-<b>from</b> Peg:</label>
-    <select id="fromPeg" class="combo">
-        <option value="1" selected>1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-    </select>
-    <br>
-    <label for="toPeg" class="label">Move-<b>to</b> Peg:</label>
-    <select id="toPeg" class="combo">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3" selected>3</option>
-    </select>
-</fieldset>
+    <div class="inputs">
+        <fieldset>
+            <legend>Variables</legend>
+            <br>
+            <label for="numDisks" class="label">Number of Disks:</label>
+            <select id="numDisks" class="combo">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <br>
+            <label for="fromPeg" class="label">Move-<b>from</b> Peg:</label>
+            <select id="fromPeg" class="combo">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <br>
+            <label for="toPeg" class="label">Move-<b>to</b> Peg:</label>
+            <select id="toPeg" class="combo">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+            </select>
+        </fieldset>
 
-<button onclick="play()" class="play">Play</button>
-</div>
+        <button onclick="play()" class="play">Play</button>
+    </div>
+
+</body>
+
+</html>

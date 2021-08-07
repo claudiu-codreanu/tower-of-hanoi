@@ -28,7 +28,7 @@ function hanoi(n, from, to) {
     }
 
 
-    // step 1 in explanations above
+    // step 1 in readme
     function moveStack(from, to, ptr) {
         
         if(isTopOfStack(ptr, stacks[from])) {
@@ -41,13 +41,13 @@ function hanoi(n, from, to) {
         let other = getOtherStack(from, to),
             otherPtr = stacks[other].length;
 
-        // step 2 in explanations above
+        // step 2 in readme
         moveStack(from, other, ptr + 1);
 
-        // step 3 in explanations above
+        // step 3 in readme
         moveTopmostElem(from, to);
 
-        // step 4 in explanations above
+        // step 4 in readme
         moveStack(other, to, otherPtr);
     }
 
@@ -88,11 +88,6 @@ function hanoi(n, from, to) {
 }
 
 
-window.onload = () => {
-    hanoi(5, 1, 3);
-}
-
-
 function play() {
     let numDisks = getComboValue("numDisks"),
         from = getComboValue("fromPeg"),
@@ -102,15 +97,18 @@ function play() {
     hanoi(numDisks, from, to);
 }
 
+
 function clearConsole() {
     let el = document.getElementById("console");
     el.innerText = "";
 }
 
+
 function getComboValue(id) {
     let el = document.getElementById(id);
     return parseInt(el.value);
 }
+
 
 function logBeginState(stacks) {
     log("> Begin state:");
@@ -121,6 +119,7 @@ function logBeginState(stacks) {
     log("");
 }
 
+
 function logEndState(stacks) {
     log("> End state:");
     log("");
@@ -129,6 +128,7 @@ function logEndState(stacks) {
     log("");
     log("");
 }
+
 
 function log(msg) {
     let el = document.getElementById("console");
@@ -148,9 +148,11 @@ function displaySolution(moves) {
     log(msg);
 }
 
+
 function arrayToString(a) {
     return `[${a.join(", ")}]`;
 }
+
 
 function displayPegs(stacks) {
 
