@@ -57,7 +57,7 @@ function hanoi(n, from, to) {
             []
         ];
     
-		stacks[from] = Array(n).fill(1).map((el, i) => n - i);
+		stacks[from] = [...Array(n)].map((el, i) => n - i);
         return stacks;
     }
 
@@ -67,7 +67,9 @@ function hanoi(n, from, to) {
         
         if(isTopOfStack(ptr, stacks[from])) {
             moveTopmostElem(from, to);
-            return; // stop the recursion
+
+            // stop the recursion
+            return;
         }
 
         let other = getOtherStack(from, to),
