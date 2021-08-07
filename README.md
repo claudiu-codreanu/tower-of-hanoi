@@ -43,4 +43,4 @@ Min number of moves = `2 ** N - 1` (i.e. `2` to the power of `N`, minus `1`)
 
 <br>
 
-Play with my implementation [here](https://claudiu-codreanu.github.io/tower-of-hanoi/main.html)
+Play with my implementation **[here](https://claudiu-codreanu.github.io/tower-of-hanoi/main.html)**
