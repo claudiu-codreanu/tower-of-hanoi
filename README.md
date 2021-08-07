@@ -39,7 +39,7 @@ The recursion stops for `N == 1`, when there's no need to drill-down any further
 
 Also, the puzzle can be solved in a minimum number of moves, which is `N`-dependent:
 
-Min number of moves = `2 ** N - 1` (`2` to the power of `N`, minus `1`)
+Min number of moves = `2 ** N - 1` (i.e. `2` to the power of `N`, minus `1`)
 
 <br>
 
