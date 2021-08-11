@@ -1,6 +1,7 @@
 # Tower of Hanoi
 
-Finds and displays the moves which solve the Tower of Hanoi puzzle.  
+Solves the Tower of Hanoi puzzle using the minimum number of moves. Displays the game before, game after, and the list of moves. Uses a recursive function. Lets you pick variables such as number of disks, initial peg, and destination peg.
+
 See the project page **[here](https://claudiu-codreanu.github.io/tower-of-hanoi)**
 
 <br>
